@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise API - all</title>
+</head>
+<body>
+    <script>
+        // let p1 = new Promise((resolve, reject) => {
+        //     resolve('OK');
+        // })
+        // // let p2 = Promise.resolve('Success');
+        // let p2 = Promise.reject('aa');
+        // // let p3 = Promise.resolve('success');
+        // let p3 = Promise.reject('ee');
+
+
+        // let p1 = new Promise((resolve, reject) => {
+        //     resolve('OK');
+        // })
+        let p1 = Promise.reject('aaa');
+        let p2 = Promise.reject('a');
+        let p3 = Promise.reject('b');
+        
+        const result = Promise.any([p1, p2, p3]);
+
+        console.log(result);
+    </script>
+</body>
+</html>
