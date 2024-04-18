@@ -1,8 +1,13 @@
 # 学习内容
 
 # 查看项目大小
+https://github.com/settings/repositories
+
+
 du -sh .
+
 https://api.github.com/repos/SkateYa/study
+
 
 
 # 忽略所有node_modules大小
