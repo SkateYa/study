@@ -2,6 +2,8 @@
 
 # 查看项目大小
 du -sh .
+https://api.github.com/repos/SkateYa/study
+
 
 # 忽略所有node_modules大小
 node_modules/
